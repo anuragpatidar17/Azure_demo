@@ -19,7 +19,7 @@ namespace Azure_demo
 
             {
                 
-                driver.Navigate().GoToUrl("https://www.facebook.com/");
+                driver.Navigate().GoToUrl("https://www.google.com/");
 
                 // Find the text input element by its name
                 IWebElement query = driver.FindElement(By.Name("q"));
