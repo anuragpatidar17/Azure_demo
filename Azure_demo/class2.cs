@@ -22,7 +22,7 @@ namespace Azure_demo
             var driver = new ChromeDriver();
 
             {
-<<<<<<< HEAD
+
                 FileStream file = new FileStream(@"D:\a\1\s\Book1.xlsx", FileMode.Open, FileAccess.Read);
                 XSSFWorkbook workbook = new XSSFWorkbook(file);
                 ISheet sheet = workbook.GetSheet("Sheet1");
@@ -30,10 +30,9 @@ namespace Azure_demo
                 var value = string.Format(sheet.GetRow(0).GetCell(0).StringCellValue);
 
                 driver.Navigate().GoToUrl("https://testmvcindia.azurewebsites.net/test.html");
-=======
-                
-                driver.Navigate().GoToUrl("https://www.google.com/");
->>>>>>> 3826ecb49a54d22faca107172fc9f60ac331bd70
+
+
+
 
                 // Find the text input element by its name
                 IWebElement query = driver.FindElement(By.Name("fname"));
