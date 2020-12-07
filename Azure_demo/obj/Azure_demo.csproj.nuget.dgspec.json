@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[16.8.3, )"
             },
+            "Microsoft.TestPlatform.TestHost": {
+              "target": "Package",
+              "version": "[16.8.3, )"
+            },
             "NPOI": {
               "target": "Package",
               "version": "[2.5.1, )"

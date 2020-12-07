@@ -42,11 +42,7 @@ namespace Azure_demo
 
                 string check_value = query.GetAttribute("value");
 
-
-
-
-
-                Console.WriteLine(check_value);
+                Console.WriteLine(check_value + " coming from test 1 ");
 
                 driver.Quit();
 

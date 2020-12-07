@@ -117,3 +117,4 @@
 /Users/anuragpatidar/Projects/Azure_demo/Azure_demo/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 /Users/anuragpatidar/Projects/Azure_demo/Azure_demo/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 /Users/anuragpatidar/Projects/Azure_demo/Azure_demo/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/Users/anuragpatidar/Projects/Azure_demo/Azure_demo/bin/Debug/netcoreapp3.1/chromedriver
