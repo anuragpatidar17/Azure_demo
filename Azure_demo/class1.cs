@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using NPOI.SS.UserModel;
@@ -21,11 +21,14 @@ namespace Azure_demo
             var driver = new ChromeDriver();
 
             {
-                FileStream file = new FileStream(@"D:\a\1\s\Book1.xlsx", FileMode.Open, FileAccess.Read);
-                XSSFWorkbook workbook = new XSSFWorkbook(file);
-                ISheet sheet = workbook.GetSheet("Sheet1");
+                //FileStream file = new FileStream(@"D:\a\r1\a\_anuragpatidar17.Azure_demo\drop\Azure_demo\Book1.xlsx", FileMode.Open, FileAccess.Read);
+                //FileStream file = new FileStream(@"D:\a\1\a\Book1.xlsx", FileMode.Open, FileAccess.Read);
+                //FileStream file = new FileStream(@"D:\a\1\s\Book1.xlsx", FileMode.Open, FileAccess.Read);
+                
+                //XSSFWorkbook workbook = new XSSFWorkbook(file);
+                //ISheet sheet = workbook.GetSheet("Sheet1");
 
-                var value = string.Format(sheet.GetRow(0).GetCell(0).StringCellValue);
+                //var value = string.Format(sheet.GetRow(0).GetCell(0).StringCellValue);
 
                 //Notice navigation is slightly different than the Java version
                 //This is because 'get' is a keyword in C#
@@ -45,6 +48,9 @@ namespace Azure_demo
                 Console.WriteLine(check_value + " coming from test 1 ");
 
                 driver.Quit();
+
+            
+
 
 
             }

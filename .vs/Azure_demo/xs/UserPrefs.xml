@@ -1,23 +1,13 @@
 ﻿<Properties StartupConfiguration="{F5D7BFA6-109A-4A1E-860E-C92CA1D600B7}|Default">
   <MonoDevelop.Ide.ItemProperties.Azure__demo PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Azure_demo/class2.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Azure_demo/class1.cs">
     <Files>
-      <File FileName="Azure_demo/class2.cs" Line="44" Column="14" />
-      <File FileName="Azure_demo/class1.cs" Line="15" Column="5" />
+      <File FileName="Azure_demo/class1.cs" Line="3" Column="30" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Azure_demo" expanded="True">
-            <Node name="Azure_demo" expanded="True">
-              <Node name="class2.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="Azure_demo" expanded="True" selected="True" />
+          <Node name="Azure_demo" expanded="True" />
         </State>
       </Pad>
     </Pads>
