@@ -16,10 +16,10 @@ steps:
 - task: UseDotNet@2
   inputs:
     packageType: 'sdk'
-    version: '3.1.403'
+    version: '5.0.103'
 - task: NuGetToolInstaller@1
   inputs:
-    versionSpec: '5.1.0'
+    versionSpec: '5.8.1'
     checkLatest: true
 - task: DotNetCoreCLI@2
   inputs:
